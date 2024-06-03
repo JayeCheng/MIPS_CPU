@@ -1,0 +1,81 @@
+{D:/College Three/computer composition/code/MIPS.v} {1 {vlog -work work -vopt {D:/College Three/computer composition/code/MIPS.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module MIPS
+
+Top level modules:
+	MIPS
+
+} {} {}} {D:/College Three/computer composition/code/EX.v} {1 {vlog -work work -vopt {D:/College Three/computer composition/code/EX.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module EX
+
+Top level modules:
+	EX
+
+} {} {}} {D:/College Three/computer composition/code/ID.v} {1 {vlog -work work -vopt {D:/College Three/computer composition/code/ID.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ID
+
+Top level modules:
+	ID
+
+} {} {}} {D:/College Three/computer composition/code/SoC.v} {1 {vlog -work work -vopt {D:/College Three/computer composition/code/SoC.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module SoC
+
+Top level modules:
+	SoC
+
+} {} {}} {D:/College Three/computer composition/code/IF.v} {1 {vlog -work work -vopt {D:/College Three/computer composition/code/IF.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module IF
+
+Top level modules:
+	IF
+
+} {} {}} {D:/College Three/computer composition/code/DataMem.v} {1 {vlog -work work -vopt {D:/College Three/computer composition/code/DataMem.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module DataMem
+
+Top level modules:
+	DataMem
+
+} {} {}} {D:/College Three/computer composition/code/soc_tb.v} {1 {vlog -work work -vopt {D:/College Three/computer composition/code/soc_tb.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module soc_tb
+
+Top level modules:
+	soc_tb
+
+} {} {}} {D:/College Three/computer composition/code/define.v} {1 {vlog -work work -vopt {D:/College Three/computer composition/code/define.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} {D:/College Three/computer composition/code/HILO.v} {1 {vlog -work work -vopt {D:/College Three/computer composition/code/HILO.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module HILO
+
+Top level modules:
+	HILO
+
+} {} {}} {D:/College Three/computer composition/code/InstMem.v} {1 {vlog -work work -vopt {D:/College Three/computer composition/code/InstMem.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module InstMem
+
+Top level modules:
+	InstMem
+
+} {} {}} {D:/College Three/computer composition/code/RegFile.v} {1 {vlog -work work -vopt {D:/College Three/computer composition/code/RegFile.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module RegFile
+
+Top level modules:
+	RegFile
+
+} {} {}} {D:/College Three/computer composition/code/MEM.v} {1 {vlog -work work -vopt {D:/College Three/computer composition/code/MEM.v}
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module MEM
+
+Top level modules:
+	MEM
+
+} {} {}}

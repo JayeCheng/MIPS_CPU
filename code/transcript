@@ -1,0 +1,249 @@
+# Reading C:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile {D:/College Three/computer composition/code/DataMem.v} 
+vsim -voptargs=+acc work.soc_tb
+# vsim -voptargs=+acc work.soc_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.soc_tb(fast)
+# Loading work.SoC(fast)
+# Loading work.MIPS(fast)
+# Loading work.IF(fast)
+# Loading work.ID(fast)
+# Loading work.EX(fast)
+# Loading work.RegFile(fast)
+# Loading work.MEM(fast)
+# Loading work.HILO(fast)
+# Loading work.InstMem(fast)
+# Loading work.DataMem(fast)
+vlog -reportprogress 300 -work work {D:/College Three/computer composition/code/DataMem.v} {D:/College Three/computer composition/code/define.v} {D:/College Three/computer composition/code/EX.v} {D:/College Three/computer composition/code/HILO.v} {D:/College Three/computer composition/code/ID.v} {D:/College Three/computer composition/code/IF.v} {D:/College Three/computer composition/code/InstMem.v} {D:/College Three/computer composition/code/MEM.v} {D:/College Three/computer composition/code/MIPS.v} {D:/College Three/computer composition/code/RegFile.v} {D:/College Three/computer composition/code/SoC.v} {D:/College Three/computer composition/code/soc_tb.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module DataMem
+# -- Compiling module EX
+# -- Compiling module HILO
+# -- Compiling module ID
+# -- Compiling module IF
+# -- Compiling module InstMem
+# -- Compiling module MEM
+# -- Compiling module MIPS
+# -- Compiling module RegFile
+# -- Compiling module SoC
+# -- Compiling module soc_tb
+# 
+# Top level modules:
+# 	soc_tb
+vlog -reportprogress 300 -work work {D:/College Three/computer composition/code/DataMem.v} {D:/College Three/computer composition/code/define.v} {D:/College Three/computer composition/code/EX.v} {D:/College Three/computer composition/code/HILO.v} {D:/College Three/computer composition/code/ID.v} {D:/College Three/computer composition/code/IF.v} {D:/College Three/computer composition/code/InstMem.v} {D:/College Three/computer composition/code/MEM.v} {D:/College Three/computer composition/code/MIPS.v} {D:/College Three/computer composition/code/RegFile.v} {D:/College Three/computer composition/code/SoC.v} {D:/College Three/computer composition/code/soc_tb.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module DataMem
+# -- Compiling module EX
+# -- Compiling module HILO
+# -- Compiling module ID
+# -- Compiling module IF
+# -- Compiling module InstMem
+# -- Compiling module MEM
+# -- Compiling module MIPS
+# -- Compiling module RegFile
+# -- Compiling module SoC
+# -- Compiling module soc_tb
+# 
+# Top level modules:
+# 	soc_tb
+vlog -reportprogress 300 -work work {D:/College Three/computer composition/code/DataMem.v} {D:/College Three/computer composition/code/define.v} {D:/College Three/computer composition/code/EX.v} {D:/College Three/computer composition/code/HILO.v} {D:/College Three/computer composition/code/ID.v} {D:/College Three/computer composition/code/IF.v} {D:/College Three/computer composition/code/InstMem.v} {D:/College Three/computer composition/code/MEM.v} {D:/College Three/computer composition/code/MIPS.v} {D:/College Three/computer composition/code/RegFile.v} {D:/College Three/computer composition/code/SoC.v} {D:/College Three/computer composition/code/soc_tb.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module DataMem
+# -- Compiling module EX
+# -- Compiling module HILO
+# -- Compiling module ID
+# -- Compiling module IF
+# -- Compiling module InstMem
+# -- Compiling module MEM
+# -- Compiling module MIPS
+# -- Compiling module RegFile
+# -- Compiling module SoC
+# -- Compiling module soc_tb
+# 
+# Top level modules:
+# 	soc_tb
+vlog -reportprogress 300 -work work {D:/College Three/computer composition/code/DataMem.v} {D:/College Three/computer composition/code/define.v} {D:/College Three/computer composition/code/EX.v} {D:/College Three/computer composition/code/HILO.v} {D:/College Three/computer composition/code/ID.v} {D:/College Three/computer composition/code/IF.v} {D:/College Three/computer composition/code/InstMem.v} {D:/College Three/computer composition/code/MEM.v} {D:/College Three/computer composition/code/MIPS.v} {D:/College Three/computer composition/code/RegFile.v} {D:/College Three/computer composition/code/SoC.v} {D:/College Three/computer composition/code/soc_tb.v}
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# -- Compiling module DataMem
+# -- Compiling module EX
+# -- Compiling module HILO
+# -- Compiling module ID
+# -- Compiling module IF
+# -- Compiling module InstMem
+# -- Compiling module MEM
+# -- Compiling module MIPS
+# -- Compiling module RegFile
+# -- Compiling module SoC
+# -- Compiling module soc_tb
+# 
+# Top level modules:
+# 	soc_tb
+quit -sim
+# Loading project MIPS
+# Compile of DataMem.v was successful.
+# Compile of define.v was successful.
+# Compile of EX.v was successful.
+# Compile of HILO.v was successful.
+# Compile of ID.v was successful.
+# Compile of IF.v was successful.
+# Compile of InstMem.v was successful.
+# Compile of MEM.v was successful.
+# Compile of MIPS.v was successful.
+# Compile of RegFile.v was successful.
+# Compile of SoC.v was successful.
+# Compile of soc_tb.v was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim -voptargs=+acc -novopt work.soc_tb
+# vsim -voptargs=+acc -novopt work.soc_tb 
+# Refreshing D:/College Three/computer composition/code/work.soc_tb
+# Loading work.soc_tb
+# Refreshing D:/College Three/computer composition/code/work.SoC
+# Loading work.SoC
+# Refreshing D:/College Three/computer composition/code/work.MIPS
+# Loading work.MIPS
+# Refreshing D:/College Three/computer composition/code/work.IF
+# Loading work.IF
+# Refreshing D:/College Three/computer composition/code/work.ID
+# Loading work.ID
+# Refreshing D:/College Three/computer composition/code/work.EX
+# Loading work.EX
+# Refreshing D:/College Three/computer composition/code/work.RegFile
+# Loading work.RegFile
+# Refreshing D:/College Three/computer composition/code/work.MEM
+# Loading work.MEM
+# Refreshing D:/College Three/computer composition/code/work.HILO
+# Loading work.HILO
+# Refreshing D:/College Three/computer composition/code/work.InstMem
+# Loading work.InstMem
+# Refreshing D:/College Three/computer composition/code/work.DataMem
+# Loading work.DataMem
+add wave sim:/soc_tb/soc0/mips0/regfile0/*
+# Changing window so values will track the active time
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+add wave  \
+sim:/soc_tb/soc0/mips0/regfile0/reg32
+add wave  \
+sim:/soc_tb/soc0/instrom0/instmem
+add wave  \
+sim:/soc_tb/soc0/mips0/ex0/op_i \
+sim:/soc_tb/soc0/mips0/ex0/regaData \
+sim:/soc_tb/soc0/mips0/ex0/regbData \
+sim:/soc_tb/soc0/mips0/ex0/regcData
+add wave  \
+sim:/soc_tb/soc0/mips0/hilo0/HIO \
+sim:/soc_tb/soc0/mips0/hilo0/LOO
+run
+run
+add wave  \
+sim:/soc_tb/clk \
+sim:/soc_tb/rst
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Break in Module soc_tb at D:/College Three/computer composition/code/soc_tb.v line 11
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+add wave  \
+sim:/soc_tb/soc0/mips0/ex0/regaData \
+sim:/soc_tb/soc0/mips0/ex0/regbData \
+sim:/soc_tb/soc0/mips0/ex0/regcData
+add wave  \
+sim:/soc_tb/soc0/mips0/hilo0/HIO \
+sim:/soc_tb/soc0/mips0/hilo0/LOO
+add wave  \
+sim:/soc_tb/clk \
+sim:/soc_tb/rst
+add wave  \
+sim:/soc_tb/soc0/mips0/regfile0/reg32
+# Compile of LLbit.v was successful.
+# Compile of LLbit.v was successful.
+# Compile of LLbit.v was successful.
+# Compile of LLbit.v was successful.
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+run
+run
+run
+restart
+run
+run
